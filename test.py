@@ -29,9 +29,9 @@ def listar():
 
 
 s = socket.socket()
-s.connect(("192.168.1.30",5038))
+s.connect(("192.168.1.29",5038))
 
-iniciar_ami("emanuel","1234")
+iniciar_ami("ast","1234")
 
 listar()
 #llamar(503)
